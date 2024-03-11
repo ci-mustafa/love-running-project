@@ -1,0 +1,6 @@
+/* Astrisk wildcard selector to override the default browser style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

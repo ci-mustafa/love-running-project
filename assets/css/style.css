@@ -4,3 +4,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project style */
+    color: #3a3a3a
+}
+
+/* header */
+header {
+    background-color: bisque;
+}
+
+/* main */
+main {
+    background-color: aquamarine;
+    flex: 1 0 auto;
+}
+
+/* footer */
+footer {
+    background-color: tomato;
+}

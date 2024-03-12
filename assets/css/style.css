@@ -23,6 +23,11 @@ header {
     background-color: bisque;
 }
 
+/* h1 style */
+h1 {
+    font-family: 'oswald', sans-serif;
+}
+
 /* main */
 main {
     background-color: aquamarine;
@@ -33,3 +38,4 @@ main {
 footer {
     background-color: tomato;
 }
+

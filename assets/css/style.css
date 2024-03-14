@@ -106,18 +106,18 @@ main {
     margin: 20px auto;
 }
 
-#reasons > h2 {
+#reasons>h2 {
     font-size: 280%;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#benefits-physical > div {
+#benefits-physical>div {
     margin-bottom: 20px;
     line-height: 20px;
 }
 
-#benefits-mental > div {
+#benefits-mental>div {
     margin-bottom: 20px;
     line-height: 20px;
 }
@@ -149,7 +149,7 @@ hr {
 
 /* reason section image  */
 #circle-cover-bg {
-    background: url("../images/reasons-image.jpeg") no-repeat top center / cover;
+    background: url("../images/reasons-image.jpeg") no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -163,6 +163,29 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+/* meetup section */
+#times {
+    background: url('../images/dublin-image.jpeg') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+#times h3 {
+    color: #ffffff;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
@@ -219,17 +242,19 @@ hr {
     }
 
     /* reasons section */
-    #benefits-physical, #benefits-mental {
+    #benefits-physical,
+    #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical > div, #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -250,7 +275,7 @@ hr {
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -262,15 +287,15 @@ hr {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 
     #benefits-mental p {
-        direction:ltr;
+        direction: ltr;
     }
 }
